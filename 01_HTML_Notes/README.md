@@ -1,5 +1,5 @@
-# HTML Notes
 
+![HTML](./html.png)
 
 | Day |   Topics     | 
 | ----- | :------------------: |
