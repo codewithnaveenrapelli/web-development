@@ -1,0 +1,28 @@
+/* Tag selector */
+
+h1 {
+    color: red;
+}
+
+/* Class selector */
+.para {
+    color: blueviolet;
+}
+
+/* ID selector */
+#btn {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+/* psudeo selector */
+
+#btn:hover {
+    background-color: black;
+    color: white;
+}
+
+h1:hover {
+    color: black;
+}
