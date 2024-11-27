@@ -1,0 +1,91 @@
+## video tag
+The HTML ```<video>``` element is used to show a video on a web page.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap");
+
+    html {
+        font-family: "jost", sans-serif;
+        background-color: #efefef;
+    }
+
+    h1 {
+        font-weight: bold;
+    }
+
+    video {
+        border-radius: 10px;
+    }
+</style>
+
+<body>
+    <h1>HTML VIDEO TAG</h1>
+    <!-- add video tag here  -->
+    <video controls muted loop poster="./images/html.webp" width="500">
+        <source src="./video/Teal Modern 3D Job Hiring Social Media Mobile Video (16).mp4" type="video/mp4" />
+    </video>
+
+    <video height="225" width="400" controls>
+        <source src="night-sky.mp4" type="video/mp4">
+        <source src="night-sky.ogg" type="video/ogg">
+        Your browser doesn't support video element.
+    </video>
+
+    <!-- <video height="225" width="400" controls autoplay>
+        <source src="night-sky.mp4" type="video/mp4">
+        Your browser doesn't support video element.
+    </video> -->
+
+    <!-- <video height="225" width="400" controls autoplay muted>
+        <source src="night-sky.mp4" type="video/mp4">
+        Your browser doesn't support video element.
+      </video> -->
+
+    <!-- <video height="225" width="400" controls poster="night-sky.jpg">
+        <source src="night-sky.mp4" type="video/mp4">
+        Your browser doesn't support video element.
+      </video> -->
+
+    <video height="225" width="400" controls preload="auto">
+        <source src="night-sky.mp4" type="video/mp4">
+        Your browser doesn't support video element.
+    </video>
+
+    <video height="225" width="400" controls preload="metadata">
+        <source src="night-sky.mp4" type="video/mp4">
+        Your browser doesn't support video element.
+    </video>
+
+    <video height="225" width="400" controls preload="none">
+        <source src="night-sky.mp4" type="video/mp4">
+        Your browser doesn't support video element.
+    </video>
+</body>
+
+</html>
+
+```
+* The controls attribute adds video controls, like play, pause, and volume.
+* Add muted after autoplay to let your video start playing automatically (but muted):
+
+
+* When using the autoplay attribute with the ```<video>``` element, some browsers might require the video to be muted in order for the video to start playing automatically. This is due to browser policies regarding autoplaying media with sound, which can be intrusive to users. -->
+
+## HTML VIDEO TAG - Commonly supported video formats
+* MP4 (video/mp4): A widely supported format that provides good quality with efficient compression. Recommended for cross-browser compatibility. 
+    
+* WebM (video/webm): A modern open-source format developed by Google with good compression and quality. Well supported in most modern browsers. 
+    
+    
+* Ogg (video/ogg): A free and open multimedia format that includes video, audio, and subtitles. It's supported but less commonly used. -->
+
+
