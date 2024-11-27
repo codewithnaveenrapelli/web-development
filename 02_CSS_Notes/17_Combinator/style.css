@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost";
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+.container {
+    padding: 64px 0;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin-right: 20px;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hero-contain {
+    margin: 20px;
+}
+
+.hero-image {
+    margin: 20px;
+}
+
+.hero-contain h1 {
+    color: white;
+    font-size: 64px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: start;
+
+}
+
+.hero-contain p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+.hero-contain a {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+
+.hero-contain a:hover {
+    color: rgb(243, 4, 4);
+    background-color: burlywood;
+}
+
+.section-elements {
+    background-color: white;
+}
+
+.content-1,
+.content-2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+    font-size: 48px;
+}
+
+/** --------------------------------- */
+
+.content-1 ul p {
+    font-weight: bold;
+    color: red;
+}
+
+.content-1 ul li {
+    color: green;
+}
+
+.content-1>ul>li {
+    color: brown;
+}
+
+.content-1 ul p+li {
+    color: pink;
+}
+
+.content-1 ul p~li {
+    color: purple;
+}
