@@ -23,3 +23,5 @@
 | 18    |  [ HTML Video tag](./18_video_tag.md) |
 | 19    |  [ HTML Audio tag](./19_audio_tag.md) |
 | 20    |  [ HTML iframe](./20_inframe.md) |
+| 21    |  [ Mini Project](./main_project.html) |
+| 22    |  [ Mini Project](./Project.html) |
