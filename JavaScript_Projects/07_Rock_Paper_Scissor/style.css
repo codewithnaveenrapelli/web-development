@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(46, 77, 123);
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 0 1px 58px rgba(246, 246, 246, 0.3)
+}
+
+h2 {
+    color: white;
+    font-size: 32px;
+}
+
+p {
+    color: white;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    font-size: 38px;
+}
+
+#rock {
+    background-color: #ff0000;
+    margin: 0px 20px;
+}
+
+#paper {
+    background-color: #2196f3;
+    margin: 0px 20px;
+}
+
+#scissor {
+    background-color: #4caf50;
+    margin: 0px 20px;
+}
+
+#score {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
